@@ -7,6 +7,6 @@ import Child from "../src/Child";
 it("Check function and state test cases", () => {
   let ChildData = renderer.create(<Child />).getInstance();
 
-  console.log(ChildData)
-  expect(ChildData.change(2)).toEqual(20)
+  ChildData.change(2);
+  expect(ChildData.state.data).toEqual(20);
 });

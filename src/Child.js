@@ -19,7 +19,7 @@ export default class Child extends Component<Props> {
   }
 
   change(x) {
-    return x * 10;
+    this.setState({ data: x * 10 });
   }
 
   render() {
