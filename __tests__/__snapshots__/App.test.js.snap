@@ -35,20 +35,11 @@ exports[`App page renders correctly 1`] = `
       }
     }
   >
-    <Text
-      accessible={true}
+    <TextInput
       allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "fontSize": 25,
-          "margin": 10,
-          "textAlign": "center",
-        }
-      }
-    >
-      This is child data
-    </Text>
+      onChangeText={[Function]}
+      placeholder="Avinsh"
+    />
   </View>
 </View>
 `;
