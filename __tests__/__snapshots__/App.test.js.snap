@@ -39,6 +39,7 @@ exports[`App page renders correctly 1`] = `
       allowFontScaling={true}
       onChangeText={[Function]}
       placeholder="Avinsh"
+      testID="username"
     />
   </View>
 </View>

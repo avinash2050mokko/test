@@ -26,6 +26,7 @@ export default class Child extends Component<Props> {
     return (
       <View style={styles.container}>
         <TextInput
+          testID={"username"}
           onChangeText={text => this.change(text)}
           placeholder={"Avinsh"}
         />
